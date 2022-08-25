@@ -3,6 +3,16 @@
     font-family: 'Overpass', sans-serif;
     margin: 0px auto;
 }
+
+    /* Nav Styling */
+
+    nav{
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+    }
+
     nav h1, nav div {
         background-color: #e9edc9;
         
@@ -17,7 +27,6 @@
 
     #nav-links {
         text-align: center;
-        margin-bottom: 10px;
         padding-bottom: 20px ;    
     }
 
@@ -46,13 +55,15 @@
         transition: 0.15s;
     }
 
+    /* Main Styling */
+
     h1 {
         padding: 10px;
         text-align: center;
     }
 
     main {
-        margin-top: 10px; 
+        margin-top: 130px; 
     }
     em {
         background-color: #FAEDCD;
