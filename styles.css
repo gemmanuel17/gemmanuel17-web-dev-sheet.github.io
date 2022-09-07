@@ -88,3 +88,10 @@
     .tag-name {
         background-color: #FAEDCD;
     }
+
+    img {
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        display: block;
+    }
